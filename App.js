@@ -11,4 +11,8 @@ const parent = React.createElement("div", {id: "parent"},
     ))
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
-root.render(parent)
+root.render(parent) // react will only work in this root not in ur whole html file
+
+/* react is a library, its just a piece of js code 
+   and can work independtly even at any small portion of your app
+*/
